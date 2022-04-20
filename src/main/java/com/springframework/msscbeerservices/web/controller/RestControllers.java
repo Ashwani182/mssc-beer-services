@@ -26,7 +26,7 @@ public class RestControllers {
 
     @PutMapping("/{beerId}")
     public ResponseEntity updateBeerById(@PathVariable("beerId") UUID bberId, BeerDto beerDto){
-        //todo Imp
+        //todo Implemtation
         return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
 
